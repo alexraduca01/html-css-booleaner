@@ -57,7 +57,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-.lorem100 > span {
+p > span {
     background-color: yellow;
 }
 
@@ -83,4 +83,10 @@ table {
 
 .sky-blue {
     background-color: rgb(181, 223, 240);
+}
+
+/* Quarta sezione */
+.post-scriptum {
+    font-size: 25px;
+    margin-bottom: 30px;
 }
