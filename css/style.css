@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 2000px;
+}
+
 header {
     background-image: url(../img/pattern.png);
     background-color: rgb(94, 147, 252);
@@ -59,4 +63,24 @@ h1 {
 
 ul {
     margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Terza sezione */
+table {
+    font-size: 25px;
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin-bottom: 20px;
+}
+
+.table-head {
+    color: white;
+    background-color: rgb(77, 157, 224);
+}
+
+.sky-blue {
+    background-color: rgb(181, 223, 240);
 }
