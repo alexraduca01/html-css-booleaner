@@ -26,12 +26,12 @@ h1 {
     font-size: 60px;
 }
 
-p {
+.credits {
     font-size: 25px;
     color: gray;
 }
 
-p > span {
+#author {
     color: rgb(75, 155, 223);
 }
 
@@ -41,4 +41,22 @@ p > span {
 
 .contenitore-foto {
     margin-top: 20px;
+}
+
+/* Seconda sezione */
+.sez2 {
+    font-size: 25px;
+}
+
+.lorem100 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.lorem100 > span {
+    background-color: yellow;
+}
+
+ul {
+    margin-left: 20px;
 }
