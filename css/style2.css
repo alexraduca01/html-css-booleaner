@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 2000px;
+}
+
+header {
+    background-image: url(../img/pattern.png);
+    background-color: rgb(94, 147, 252);
+    background-size: 15%;
+}
+
+main {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+header > img {
+    width: 175px;
+    margin-top: 40px;
+    margin-left: 110px;
+}
+
+/* Descrizione oggetto pagina, prima sezione */
+section {
+    margin-left: 10px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.credits {
+    font-size: 25px;
+    color: gray;
+}
+
+#author {
+    color: rgb(75, 155, 223);
+}
+
+.date {
+    font-size: 15px;
+}
+
+.contenitore-foto {
+    margin-top: 20px;
+}
+
+/* Seconda sezione */
+.sez2 {
+    font-size: 25px;
+}
+
+.lorem100 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.yellow-background {
+    background-color: yellow;
+}
+
+ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Terza sezione */
+table {
+    font-size: 25px;
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin-bottom: 20px;
+}
+
+.table-head {
+    color: white;
+    background-color: rgb(77, 157, 224);
+}
+
+.sky-blue {
+    background-color: rgb(181, 223, 240);
+}
+
+/* Quarta sezione */
+.post-scriptum {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+/* Footer */
+footer {
+    margin-left: 10px;
+}
+
+footer > p {
+    font-size: 25px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+div {
+    color: white;
+    font-size: 30px;
+    width: 312px;
+    height: 208px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.monitor {
+    background-image: url(../img/monitor.jpg);
+}
+
+.graph {
+    background-image: url(../img/graph.jpg);
+}
